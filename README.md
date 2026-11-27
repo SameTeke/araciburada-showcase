@@ -16,4 +16,6 @@ Staff manage listings and attach images in an administration panel. The public c
 - **Prisma and PostgreSQL** model vehicle categories, makes, models and trims, along with form submissions, listings and their images.
 - **Listing photos** are uploaded through an authenticated administration route and linked to their listing by ID.
 
-The application passed a local TypeScript check. This public repository documents the project and links to its published interface walkthrough.
+## Read the listing code
+
+The public source from the earlier release shows how the marketplace works under the hood. Follow a listing from the [staff creation handler](https://github.com/SameTeke/otosipsak/blob/main/src/app/api/admin/listings/route.ts) to the [published inventory query](https://github.com/SameTeke/otosipsak/blob/main/src/app/api/listings/route.ts). The current Aracı Burada application passed a local TypeScript check.
